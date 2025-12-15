@@ -1,0 +1,11 @@
+print("Welcome to the swimming pool. Please register into your membership.")
+a :0 str
+input("Please Enter Your Name: ")
+input("Please Enter Your Age: " , a)
+input("Please Enter Your Membership Type: ")
+if (a < 12):
+    print("Not eligible for membership")
+elif(a >= 12 and a <= 60):
+    print("Standard membership granted")
+elif(a > 60):
+    print("Senior membership granted")
